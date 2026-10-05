@@ -1,22 +1,6 @@
 from dotenv import load_dotenv
 import os
 
-class j:
-    reponses = []
-
-    def __init__(self, n):
-        self.n = n
-        self.s = 0
-
-    def bon(self):
-        self.s = self.s + 1
-
-    def mauvais(self):
-        self.s = self.s - 1
-
-    def ajouter(self, r):
-        self.reponses.append(r)
-
 questions = [
     ["Quel mot-clé définit une fonction en Python ?", "def"],
     ["Quel port utilise HTTPS ?", "443"],
